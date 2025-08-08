@@ -42,9 +42,10 @@ const schema = z.object({
 // prettier-ignore
 const models = [
     'gpt-4o-mini',
-    'claude-3-haiku-20240307',
-    'meta-llama/Llama-3-70b-chat-hf',
-    'mistralai/Mixtral-8x7B-Instruct-v0.1'
+    'claude-3-5-haiku-latest',
+    'meta-llama/Llama-4-Scout-17B-16E-Instruct',
+    'o4-mini',
+    'mistralai/Mistral-Small-24B-Instruct-2501'
 ];
 
 type AppContext = Context<{ Bindings: ApplicationBindings }>;
